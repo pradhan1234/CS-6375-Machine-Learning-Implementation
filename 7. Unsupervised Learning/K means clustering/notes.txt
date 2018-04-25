@@ -1,0 +1,36 @@
+Part 1
+
+K means algo: metric- euclidean
+link: http://www.utdallas.edu/~axn112530/cs6375/unsupervised/test_data.txt
+
+input: k, input file, output file path
+
+initialize k points as means
+
+termination: centroids no longer move or iterations 25 whichever is earlier.
+
+Validation: sum of squares error
+
+SSE:
+
+for all k centroids:
+	for all x in cluster with kth centroid:
+		sum over dist(centroid-i, x)^2
+
+A method to compute this.
+
+Output:
+
+cluster-id, list of points in this cluster
+
+1	2, 4, 7, 10
+...
+SSE_value
+
+Run atleast 5 times with different k
+
+
+To submit:
+1. src code
+2. ReadMe
+3. Report of results

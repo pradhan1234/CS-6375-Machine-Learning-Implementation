@@ -1,0 +1,88 @@
+
+C:\Users\Yash\Desktop\Assignment 3 submission\Part 2\src>python "Dynamic+ANN.py"
+
+Enter the URL of the dataset:https://archive.ics.uci.edu/ml/machine-learning-dat
+abases/iris/iris.data
+Enter the output path for processed data:irisdataset.csv
+Pre Processing has been done
+Enter the input Dataset: irisdataset.csv
+Enter the training percent: 90
+Enter the maximum iteration:100
+Enter the number of hidden layer:2
+Enter the nodes in hidden layers: 3
+Enter the nodes in hidden layers: 2
+Traing Accuracy: 85.18518518518519
+Testing Accuracy: 93.33333333333333
+Training Error: 14.814814814814813
+Testing Error: 6.666666666666665
+
+
+Layer  0
+
+        Neuron 0 weights:
+
+                 -9.03997443189598
+                 -9.827670584131031
+                 -9.460200479345263
+
+        Neuron 1 weights:
+
+                 -0.11329639074400247
+                 -0.2587692314226192
+                 -0.17089051706474703
+
+        Neuron 2 weights:
+
+                 -0.5146634292864329
+                 -0.5727645267307497
+                 -0.5475722703820534
+
+        Neuron 3 weights:
+
+                 4.412575207367825
+                 5.536120541492736
+                 4.970747337646322
+
+        Neuron 4 weights:
+
+                 6.67078759600558
+                 6.6077817172609
+                 6.656889364379608
+
+
+Layer  1
+
+        Neuron 0 weights:
+
+                 -0.837774019726
+                 -0.031732213630111694
+
+        Neuron 1 weights:
+
+                 21.2007267181
+                 -0.15046853729615317
+
+        Neuron 2 weights:
+
+                 22.3688064271
+                 -0.007853680274449326
+
+        Neuron 3 weights:
+
+                 21.7990647211
+                 -0.3176405061879608
+
+
+Layer  2
+
+        Neuron 0 weights:
+
+                 -0.983383914052
+
+        Neuron 1 weights:
+
+                 5.78475040754
+
+        Neuron 2 weights:
+
+                 -3.90664357354

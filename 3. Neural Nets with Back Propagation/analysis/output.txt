@@ -1,0 +1,74 @@
+The code output the following model:
+
+Parameters:
+
+Training Size = 80
+Max Iterations = 100
+Learning Rate = 0.9
+No. of Hidden Layers = 2
+No. of Hidden Nodes in each layer = 3, 2
+
+
+
+RESULTS:
+
+Training Accuracy = 97.5
+Testing Accuracy = 96.67
+
+
+OUTPUT:
+
+Layer  0
+
+	Neuron 0 weights:
+
+		 -2.6180535458547927
+		 -4.10183615651619
+
+	Neuron 1 weights:
+
+		 -0.17957494524918868
+		 -2.014831395176889
+
+	Neuron 2 weights:
+
+		 -0.4972784557361779
+		 3.48965021455008
+
+	Neuron 3 weights:
+
+		 0.7623646648607065
+		 -3.528447162043935
+
+	Neuron 4 weights:
+
+		 2.2999591206661747
+		 -3.6189335541478633
+
+
+Layer  1
+
+	Neuron 0 weights:
+
+		 -2.04361688172
+
+	Neuron 1 weights:
+
+		 11.6623922657
+
+	Neuron 2 weights:
+
+		 -31.6595111017
+
+
+Layer  2
+
+	Neuron 0 weights:
+
+		 -2.3349016501
+
+	Neuron 1 weights:
+
+		 4.80278696205
+
+

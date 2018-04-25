@@ -1,0 +1,32 @@
+Part 3
+
+Unsupervised Learning to reduce number of color points
+Image Segmentation/Color Quantization.
+
+Use K Means or EM Algo
+
+Resources
+- http://www.ics.uci.edu/~dramanan/teaching/ics273a_winter08/projects/avim_report.pdf
+- http://docs.opencv.org/3.1.0/d1/d5c/tutorial_py_kmeans_opencv.html#gsc.tab=0
+- http://www.pyimagesearch.com/2014/07/07/color-quantization-opencv-using-k-meansclustering/
+- http://cs.gmu.edu/~kosecka/cs682/lect-segmentation-part1.pdf
+- https://courses.cs.washington.edu/courses/cse576/book/ch10.pdf (If you have lots of time)
+
+Packages:
+OpenCV, ggplot2 and jpeg
+
+Input:
+http://www.utdallas.edu/~axn112530/cs6375/unsupervised/images
+
+5 images, use any 3
+
+Parameters: upto us
+
+Output: set of clustered images
+
+Run from command line
+
+report
+
+To submit:
+src code, 3 clustered images, reports.

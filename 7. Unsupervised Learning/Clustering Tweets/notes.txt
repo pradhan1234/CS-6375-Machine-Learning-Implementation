@@ -1,0 +1,40 @@
+Part 2:
+
+Tweets Clustering using K-means
+Metric: Jaccard Distance
+
+2 samples: A and B
+
+Dist(A,B) = 1 - |AnB|/|AuB|
+
+A: the long march
+B: ides of march
+
+| A n B | = 1
+| A u B | = 5
+Dist(A,B) = 1 - 1/5 = 4/5
+
+Unordered set of words.
+
+Properties:
+1. Distance is small is similar
+2. Distance is large if not similar
+3. 0 if same
+4. 1 if completely different
+
+link: http://en.wikipedia.org/wiki/Jaccard_index
+
+Centroid of a cluster: A tweet having minimum distance to all other tweets in cluster.
+
+Given list of K initial centroids.
+
+Inputs:
+1. K, number of clusters
+2. Tweets dataset, http://www.utdallas.edu/~axn112530/cs6375/unsupervised/Tweets.json
+3. Initial Centroids
+http://www.utdallas.edu/~axn112530/cs6375/unsupervised/InitialSeeds.txt
+
+tweet_id
+
+default value of k: 25
+=====+++++=====
